@@ -1,12 +1,14 @@
 # Deep Reinforcement Learning Nanodegree - Continuous Control Project 2
 #### Solution by Leschek Kopczynski
 
-The Solution is presented in Jupyter Notebook wich is running in a conda virtual environment.
+Second hands-on project of Udacity's Deep Reinforcement Learning Nanodegree. The Solution is presented in Jupyter Notebook wich is running in a conda virtual environment.
 This repository contains material related to Udacity's
 [Deep Reinforcement Learning Nanodegree](https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893)
 program. Content and text elements to setup the environment is borrowed from Udacity's 
 [repository](https://github.com/udacity/deep-reinforcement-learning) and especially from
 [Project 2](https://github.com/udacity/deep-reinforcement-learning/tree/master/p2_continuous-control).
+
+As mentioned as a tip by the course leader the code is oriented by the solutions teached during the drl - nanodegree. 
 
 ## Dependencies
 
