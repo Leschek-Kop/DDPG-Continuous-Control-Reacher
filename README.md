@@ -49,7 +49,7 @@ python -m ipykernel install --user --name drlnd --display-name "drlnd"
 ```
 
 7. Follow the instructions in the Terminal and navigate to the project by following the provided hyperlink.
-8. Once you open the provided link, you have to navigate to Navigation.ipynb choose initial the new kernel ( navigate to ):
+8. Once you open the provided link, you have to navigate to `Continuous_Control.ipynb`. Then choose initial the new kernel ( navigate to ):
 ```bash
 kernel -> change kernel -> drlnd
 ```
