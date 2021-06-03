@@ -8,7 +8,7 @@ program. Content and text elements to setup the environment is borrowed from Uda
 [repository](https://github.com/udacity/deep-reinforcement-learning) and especially from
 [Project 2](https://github.com/udacity/deep-reinforcement-learning/tree/master/p2_continuous-control).
 
-##Dependencies
+## Dependencies
 
 To set up your python environment to run the code in this repository, follow the instructions below.
 
@@ -27,36 +27,36 @@ To set up your python environment to run the code in this repository, follow the
 	activate drlnd
 	```
 	
-2. Follow the instructions in [this repository](https://github.com/openai/gym) to perform a minimal install of OpenAI gym.  
+3. Follow the instructions in [this repository](https://github.com/openai/gym) to perform a minimal install of OpenAI gym.  
 	- Next, install the **classic control** environment group by following the instructions [here](https://github.com/openai/gym#classic-control).
 	- Then, install the **box2d** environment group by following the instructions [here](https://github.com/openai/gym#box2d).
 	
-3. Clone the repository (if you haven't already!), and navigate to the `python/` folder.  Then, install several dependencies.
+4. Clone the repository (if you haven't already!), and navigate to the `python/` folder.  Then, install several dependencies.
 ```bash
 cd python
 pip install .
 ```
 This will install the dependencies to the conda environment.
 
-4. Create an [IPython kernel](http://ipython.readthedocs.io/en/stable/install/kernel_install.html) for the `drlnd` environment.  
+5. Create an [IPython kernel](http://ipython.readthedocs.io/en/stable/install/kernel_install.html) for the `drlnd` environment.  
 ```bash
 python -m ipykernel install --user --name drlnd --display-name "drlnd"
 ```
 
-5. Start Jupyter Notebook Server from (project) root folder with:
+6. Start Jupyter Notebook Server from (project) root folder with:
 ```bash
 python -m ipykernel install --user --name drlnd --display-name "drlnd"
 ```
 
-6. Follow the instructions in the Terminal and navigate to the project by following the provided hyperlink.
-7. Once you open the provided link, you have to navigate to Navigation.ipynb choose initial the new kernel ( navigate to ):
+7. Follow the instructions in the Terminal and navigate to the project by following the provided hyperlink.
+8. Once you open the provided link, you have to navigate to Navigation.ipynb choose initial the new kernel ( navigate to ):
 ```bash
 kernel -> change kernel -> drlnd
 ```
 
-####Congratulations, your setup is ready to go!
+#### Congratulations, your setup is ready to go!
 
-##Project and Environment
+## Project and Environment
 **NOTE: A full description is provided inside the jupyter notebook**
 
 For this project, you will work with the [Reacher](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#reacher) environment.
@@ -87,4 +87,4 @@ Follow the instructions in `Continuous_Control.ipynb` to get started with traini
 Note that the task is episodic. Per definition, the agent must get an average score of +30 over 100 consecutive episodes
 in order to solve the environment.
 
-Results and performance are shown and discussed in `Report.pdf`
+Results, performance and future work are shown and discussed in `Report.pdf`.
